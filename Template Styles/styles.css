@@ -1,0 +1,42 @@
+body {
+    background-color: #f8f9fa; /* Light background color */
+}
+
+.container {
+    margin-top: 50px; /* Space above the container */
+}
+
+h1 {
+    color: #343a40; /* Dark color for the heading */
+}
+
+.form-control:focus {
+    border-color: #007bff; /* Bootstrap primary color on focus */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Shadow effect */
+}
+
+.btn-success {
+    background-color: #28a745; /* Green button color */
+    border-color: #28a745; /* Border color */
+}
+
+.btn-success:hover {
+    background-color: #218838; /* Darker green on hover */
+    border-color: #1e7e34; /* Darker border on hover */
+}
+
+.invalid-feedback {
+    display: none; /* Hide invalid feedback by default */
+}
+
+.was-validated .form-control:invalid {
+    border-color: #dc3545; /* Red border for invalid inputs */
+}
+
+.was-validated .form-control:invalid ~ .invalid-feedback {
+    display: block; /* Show invalid feedback for invalid inputs */
+}
+
+.was-validated .form-control:valid {
+    border-color: #28a745; /* Green border for valid inputs */
+}
