@@ -1,24 +1,44 @@
-# Hospital Management System (HMS)
+# Hospital Management System
 
-This project is a Hospital Management System (HMS) designed to streamline the operations of a healthcare facility. The system provides a user-friendly interface for both administrators and staff to manage patients, appointments, doctors, and records efficiently.
+## Overview
+
+The Hospital Management System (HMS) is a web-based application designed to streamline the management of hospital operations, including user registration, appointment scheduling, and patient record management. Built using Java Servlets and JSP, this system provides a user-friendly interface for both patients and hospital staff.
 
 ## Features
 
-- **Login & Registration**: Secure user authentication with separate sections for login and registration.
-- **Dashboard**: A comprehensive dashboard for managing:
-  - Appointments
-  - Patient records
-  - Doctor schedules and availability
-- **Responsive Design**: Optimized for different devices with a modern, clean UI.
-- **Interactive Forms**: User-friendly forms for login and registration with instant feedback.
-- **Navigation**: Simple navigation between sections using JavaScript.
+- User registration and profile management
+- Appointment scheduling
+- Patient records management
+- Role-based access control (admin, doctor, patient)
+- User authentication and authorization
+- Responsive design for mobile and desktop
+- Data validation and error handling
+- Unit tests for service and DAO layers
 
 ## Technologies Used
 
-- **Frontend**:
-  - HTML5
-  - CSS3 (with Bootstrap for styling)
-  - JavaScript for dynamic functionality
-- **Libraries**:
-  - Bootstrap 5.3 for responsive design and layout.
+- Java
+- Servlets
+- JSP (JavaServer Pages)
+- JSTL (JavaServer Pages Standard Tag Library)
+- EL (Expression Language)
+- MySQL (or any other relational database)
+- Maven (for dependency management)
+- JUnit (for unit testing)
 
+## Getting Started
+
+### Prerequisites
+
+- Java Development Kit (JDK) 8 or higher
+- Apache Tomcat (or any other servlet container)
+- MySQL (or any other relational database)
+- Maven (for building the project)
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/hospital-management-system.git
+   cd hospital-management-system
